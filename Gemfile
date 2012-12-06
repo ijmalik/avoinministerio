@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 
 gem "rails", "3.1.6"
 
@@ -69,9 +69,9 @@ group :test do
 
   gem "sqlite3"
 
-  if ENV["DB"] == "postgres"
-    gem "pg"
-  end
+
+  gem "pg"
+  
 end
 
 group :mac_test do

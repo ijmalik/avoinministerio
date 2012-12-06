@@ -20,7 +20,7 @@ GIT
       json (>= 1.5.1)
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.1.6)
       actionpack (= 3.1.6)
